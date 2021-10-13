@@ -1,0 +1,53 @@
+html {
+  font-family: sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(0, 0, 0);
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+td, th {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 10px 20px;
+}
+
+td {
+  text-align: center;
+}
+
+caption {
+  padding: 10px;
+}
+.days_line {
+  background: linear-gradient(45deg,#6ac1c5,#bda5ff);
+  border-collapse: collapse;
+  border: 2px solid rgb(0, 0, 0);
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+.hours_line {
+  background: linear-gradient(45deg,#6ac1c5,#bda5ff);
+  border-collapse: collapse;
+  border: 2px solid rgb(0, 0, 0);
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+.days_block_empty {
+  background-color: white;
+}
+
+#bouton_evenement {
+  padding: 1cm;
+  margin-top: 2cm;
+  background: linear-gradient(45deg,#6ac1c5,#bda5ff);
+  text-decoration: none;
+}
+
+#bouton_evenement a {
+  text-decoration: none;
+  color: black;
+}

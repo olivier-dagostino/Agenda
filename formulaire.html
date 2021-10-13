@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="formulaire.css">
+</head>
+
+<body>
+    <header>
+        <center>
+            <h1><strong>Nouvel Évènement</strong></h1>
+        </center>
+    </header>
+    <main>
+        
+            <div class="form_box0">
+                <div class="form_box1">
+
+                </div>
+
+                <div class="form_box2">
+                    <form methode="post" action="" autocomplete="on" target="_blank">
+                        <p><label for="titre">Titre : </label> <input id="titre" name="titre" type="text"
+                                placeholder="Titre de l'évènement" style="width: 235px;"></p>
+                        <p><label for="jour_entier">Jour Entier : </label> <input id="jour_entier" name="jour_entier"
+                                type="checkbox"></p>
+                        <p><label for="date">Titre : </label> <input id="date" name="date" type="date"
+                                placeholder="date de l'évènement"></p>
+                        <p><label for="heure">Heure de début : </label> <input id="heure" name="heure" type="time"
+                                placeholder="heure de L'évènement">
+                        <p><label for="heure">Heure de fin : </label> <input id="heure" name="heure" type="time"
+                                placeholder="heure de L'évènement"></p>
+                        <p><label for="lieu">Lieu : </label> <input id="lieu" name="lieu" type="text"
+                                placeholder="Lieu de l'évènement" style="width: 235px;"></p>
+                        <p><label for="description">Descrition : </label> <textarea id="description" name="description"
+                                type="text" placeholder="Descrition" style="height:180px;width: 280px;"></textarea></p>
+                        <p>
+                        <p>Répétition:</p>
+
+                        <div>
+                            <input type="radio" id="quotidien" name="radio_box" value="quotidien" checked>
+                            <label for="quotidien">Quotidien</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="hebdo" name="radio_box" value="hebdo">
+                            <label for="dewey">Hebdomadaire</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="hebdo" name="radio_box" value="hebdo">
+                            <label for="dewey">Mensuel</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="hebdo" name="radio_box" value="hebdo">
+                            <label for="dewey">Annuel</label>
+                        </div>
+                        <h2><input class="reset1" type="reset" value="reset"></h2>
+                    </form>
+                    
+                </div>
+                <div class="form_box3">
+
+                </div>
+            </div>
+        
+        
+            <button id="bouton_back"><b><h2><a href="AgendaV2.html">Retour</a></h2></b></button>
+        
+        <footer>
+            
+        </footer>
+    </main>
+
+</body>
+
+</html>

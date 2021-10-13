@@ -1,0 +1,27 @@
+.form_box0 {
+    background: linear-gradient(45deg,#6ac1c5,#bda5ff);
+    display: flex;
+}
+.form_box1 {
+    width: 33%;
+
+}
+.form_box2 {
+    text-align: left;
+    margin-left: 30px;
+    width: 33%;
+}
+.form_box3 {
+    width: 33%;
+    text-align: end;
+}
+
+#description {
+    text-align: justify;
+}
+.reset1 {
+    float: center;
+}
+.bouton_back {
+    height: 10px;
+}
