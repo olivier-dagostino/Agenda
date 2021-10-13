@@ -1,120 +1,91 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <meta charset="utf-8">
-  <title>Mon Agenda</title>
-  <link rel="stylesheet" href="Agenda.css"">
-</head>
+  <head>
+    <meta charset="utf-8">
+    <title>Mon Agenda</title>
+    <link rel="stylesheet" href="agenda.css"">
+  </head>
 
-<body>
-  <header>
-    <center>
-      <h1>Mon agenda</h1>
-    </center>
-  </header>
-    <Main>
-  <center>
-    <table id=" tableau">
-  <tr class="days_line">
-    <td class="days_block_empty">&nbsp;</td>
-    <th>Lundi</th>
-    <th>Mardi</th>
-    <th>Mercredi</th>
-    <th>Jeudi</th>
-    <th>vendredi</th>
-    <th>Samedi</th>
-    <th>Dimanche</th>
-  </tr>
-  <tr>
-    <th class="hours_line">9h - 10h</th>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <th class="hours_line">10h - 11h</th>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <th class="hours_line">12h - 13h</th>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <th class="hours_line">13h - 14h</th>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <th class="hours_line">14h - 15h</th>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <th class="hours_line">15h - 16h</th>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <th class="hours_line">16h - 17h</th>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <th class="hours_line">17h - 18h</th>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  </table>
-  </center>
+  <body>
 
+    <header>
+        <h1>Mon agenda</h1>
+    </header>
 
-  <center>
-    <button id="bouton_evenement"><b><h2><a href="formulaire.html">Ajouter un Évènement</a></h2></b></button>
-  </center>
-</Main>
-
+    <main>
+      <table id="tableau">
+        <tr class="days_line">
+          <td class="days_block_empty">&nbsp;</td>
+          <th>Lundi</th>
+          <th>Mardi</th>
+          <th>Mercredi</th>
+          <th>Jeudi</th>
+          <th>vendredi</th>
+          <th>Samedi</th>
+          <th>Dimanche</th>
+        </tr>
+        <tr>
+          <th class="hours_line">9h - 10h</th>
+          <td class="fusion_cellule1" rowspan="3">Brain<br> Storming</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td class="fusion_cellule4" rowspan="8"><div class="inclinaison_1">WEEKEND</div></td>
+          <td class="fusion_cellule3" rowspan="8"><div class="inclinaison_1">WEEKEND</div></td>
+        </tr>
+        <tr>
+          <th class="hours_line">10h - 11h</th>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <th class="hours_line">12h - 13h</th>
+          <td  class="background_1" colspan="2" rowspan="2"><div class="inclinaison_1">Degustation avec <br>somelière pour carte<br>des Vins </div></td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <th class="hours_line">13h - 14h</th>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <th class="hours_line">14h - 15h</th>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <th class="hours_line">15h - 16h</th>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <th class="hours_line">16h - 17h</th>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <th class="hours_line">17h - 18h</th>
+          <td class="fusion_cellule2" colspan="2">Sport</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+      <button id="bouton_evenement"><b><h2><a href="formulaire.html">Ajouter un Évènement</a></h2></b></button>
+    </main>
   </body>
-
 </html>

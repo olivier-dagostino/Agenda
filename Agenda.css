@@ -7,6 +7,9 @@ table {
   border: 2px solid rgb(0, 0, 0);
   letter-spacing: 1px;
   font-size: 0.8rem;
+  min-height: 60vh;
+  min-width: 80vw;
+  
 }
 
 td, th {
@@ -20,6 +23,18 @@ td {
 
 caption {
   padding: 10px;
+}
+
+main {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: center;
 }
 .days_line {
   background: linear-gradient(45deg,#6ac1c5,#bda5ff);
@@ -50,4 +65,29 @@ caption {
 #bouton_evenement a {
   text-decoration: none;
   color: black;
+}
+
+.fusion_cellule1 {
+  background-color: yellowgreen;
+}
+
+.fusion_cellule2 {
+  background-color: violet;
+}
+
+.fusion_cellule3 {
+  background-color: tomato;
+
+}
+
+.fusion_cellule4 {
+    background-color: tomato;
+}
+
+.inclinaison_1 {
+  transform: rotate(-25deg);
+}
+
+.background_1 {
+  background-color: turquoise;
 }
